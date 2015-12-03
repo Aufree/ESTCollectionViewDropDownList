@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  ESTCollectionViewDropDownList
+//
+//  Created by Aufree on 12/3/15.
+//  Copyright © 2015 The EST Group. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#define BasicColor [UIColor colorWithRed:0.431 green:0.843 blue:0.804 alpha:1.000]
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+static CGFloat const ESTDropDownListTagHeight = 30;
+static CGFloat const ESTDropDownListButtonWidth = 55;
+static CGFloat const ESTDropDownListTagFontSize = 12;

@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4684AA4D8CBB20182230D292 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 001A08981B6E7925A5D09DA3 /* libPods.a */; };
+		5643E25D1C0FD71B005D1A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E25C1C0FD71B005D1A1C /* main.m */; };
+		5643E2601C0FD71B005D1A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E25F1C0FD71B005D1A1C /* AppDelegate.m */; };
+		5643E2681C0FD71B005D1A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5643E2671C0FD71B005D1A1C /* Assets.xcassets */; };
+		5643E26B1C0FD71B005D1A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5643E2691C0FD71B005D1A1C /* LaunchScreen.storyboard */; };
+		5643E2761C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2751C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.m */; };
+		5643E2811C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2801C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.m */; };
+		5643E2961C101388005D1A1C /* RadioListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2951C101388005D1A1C /* RadioListViewController.m */; };
+		5643E2991C1013C0005D1A1C /* RadioCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2981C1013C0005D1A1C /* RadioCollectionView.m */; };
+		5643E29C1C1013CF005D1A1C /* RadioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E29B1C1013CF005D1A1C /* RadioCollectionViewCell.m */; };
+		5643E2B71C10209B005D1A1C /* RadioEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2B61C10209B005D1A1C /* RadioEntity.m */; };
+		5643E2BA1C1020A8005D1A1C /* TagEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2B91C1020A8005D1A1C /* TagEntity.m */; };
+		5643E2BD1C1020B1005D1A1C /* TagListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2BC1C1020B1005D1A1C /* TagListEntity.m */; };
+		5643E2C41C103395005D1A1C /* tag_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 5643E2C31C103395005D1A1C /* tag_list.json */; };
+		5643E2C71C103626005D1A1C /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2C61C103626005D1A1C /* BaseEntity.m */; };
+		5643E2DB1C1045E7005D1A1C /* ESTCollectionViewDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2CB1C1045E7005D1A1C /* ESTCollectionViewDropDownList.m */; };
+		5643E2DC1C1045E7005D1A1C /* DidSelectedTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2CE1C1045E7005D1A1C /* DidSelectedTagsCell.m */; };
+		5643E2DD1C1045E7005D1A1C /* DidSelectedTagsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2D01C1045E7005D1A1C /* DidSelectedTagsCollectionView.m */; };
+		5643E2DE1C1045E7005D1A1C /* SelectedTagReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2D21C1045E7005D1A1C /* SelectedTagReusableView.m */; };
+		5643E2DF1C1045E7005D1A1C /* TagListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2D51C1045E7005D1A1C /* TagListCollectionView.m */; };
+		5643E2E01C1045E7005D1A1C /* TagListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2D71C1045E7005D1A1C /* TagListCollectionViewCell.m */; };
+		5643E2E11C1045E7005D1A1C /* TagListContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643E2DA1C1045E7005D1A1C /* TagListContainerView.m */; };
+		5643E2E31C106DAC005D1A1C /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5643E2E21C106DAC005D1A1C /* Assets.bundle */; };
+		56DBB0291C108DA30089EC56 /* radio.json in Resources */ = {isa = PBXBuildFile; fileRef = 56DBB0281C108DA30089EC56 /* radio.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5643E2721C0FD71B005D1A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5643E2501C0FD71B005D1A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5643E2571C0FD71B005D1A1C;
+			remoteInfo = ESTCollectionViewDropDownList;
+		};
+		5643E27D1C0FD71B005D1A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5643E2501C0FD71B005D1A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5643E2571C0FD71B005D1A1C;
+			remoteInfo = ESTCollectionViewDropDownList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001A08981B6E7925A5D09DA3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26240A42052D46B01A973D66 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5643E2581C0FD71B005D1A1C /* ESTCollectionViewDropDownList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESTCollectionViewDropDownList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5643E25C1C0FD71B005D1A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5643E25E1C0FD71B005D1A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5643E25F1C0FD71B005D1A1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5643E2671C0FD71B005D1A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5643E26A1C0FD71B005D1A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5643E26C1C0FD71B005D1A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5643E2711C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTCollectionViewDropDownListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5643E2751C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESTCollectionViewDropDownListTests.m; sourceTree = "<group>"; };
+		5643E2771C0FD71B005D1A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5643E27C1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTCollectionViewDropDownListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5643E2801C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESTCollectionViewDropDownListUITests.m; sourceTree = "<group>"; };
+		5643E2821C0FD71B005D1A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5643E2941C101388005D1A1C /* RadioListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioListViewController.h; sourceTree = "<group>"; };
+		5643E2951C101388005D1A1C /* RadioListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioListViewController.m; sourceTree = "<group>"; };
+		5643E2971C1013C0005D1A1C /* RadioCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioCollectionView.h; sourceTree = "<group>"; };
+		5643E2981C1013C0005D1A1C /* RadioCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioCollectionView.m; sourceTree = "<group>"; };
+		5643E29A1C1013CF005D1A1C /* RadioCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioCollectionViewCell.h; sourceTree = "<group>"; };
+		5643E29B1C1013CF005D1A1C /* RadioCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioCollectionViewCell.m; sourceTree = "<group>"; };
+		5643E2B51C10209B005D1A1C /* RadioEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioEntity.h; sourceTree = "<group>"; };
+		5643E2B61C10209B005D1A1C /* RadioEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioEntity.m; sourceTree = "<group>"; };
+		5643E2B81C1020A8005D1A1C /* TagEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagEntity.h; sourceTree = "<group>"; };
+		5643E2B91C1020A8005D1A1C /* TagEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagEntity.m; sourceTree = "<group>"; };
+		5643E2BB1C1020B1005D1A1C /* TagListEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListEntity.h; sourceTree = "<group>"; };
+		5643E2BC1C1020B1005D1A1C /* TagListEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListEntity.m; sourceTree = "<group>"; };
+		5643E2C21C102B2D005D1A1C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5643E2C31C103395005D1A1C /* tag_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list.json; sourceTree = "<group>"; };
+		5643E2C51C103626005D1A1C /* BaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntity.h; sourceTree = "<group>"; };
+		5643E2C61C103626005D1A1C /* BaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntity.m; sourceTree = "<group>"; };
+		5643E2CA1C1045E7005D1A1C /* ESTCollectionViewDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTCollectionViewDropDownList.h; sourceTree = "<group>"; };
+		5643E2CB1C1045E7005D1A1C /* ESTCollectionViewDropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTCollectionViewDropDownList.m; sourceTree = "<group>"; };
+		5643E2CD1C1045E7005D1A1C /* DidSelectedTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidSelectedTagsCell.h; sourceTree = "<group>"; };
+		5643E2CE1C1045E7005D1A1C /* DidSelectedTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidSelectedTagsCell.m; sourceTree = "<group>"; };
+		5643E2CF1C1045E7005D1A1C /* DidSelectedTagsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidSelectedTagsCollectionView.h; sourceTree = "<group>"; };
+		5643E2D01C1045E7005D1A1C /* DidSelectedTagsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidSelectedTagsCollectionView.m; sourceTree = "<group>"; };
+		5643E2D11C1045E7005D1A1C /* SelectedTagReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedTagReusableView.h; sourceTree = "<group>"; };
+		5643E2D21C1045E7005D1A1C /* SelectedTagReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedTagReusableView.m; sourceTree = "<group>"; };
+		5643E2D41C1045E7005D1A1C /* TagListCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListCollectionView.h; sourceTree = "<group>"; };
+		5643E2D51C1045E7005D1A1C /* TagListCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListCollectionView.m; sourceTree = "<group>"; };
+		5643E2D61C1045E7005D1A1C /* TagListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListCollectionViewCell.h; sourceTree = "<group>"; };
+		5643E2D71C1045E7005D1A1C /* TagListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListCollectionViewCell.m; sourceTree = "<group>"; };
+		5643E2D91C1045E7005D1A1C /* TagListContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListContainerView.h; sourceTree = "<group>"; };
+		5643E2DA1C1045E7005D1A1C /* TagListContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListContainerView.m; sourceTree = "<group>"; };
+		5643E2E21C106DAC005D1A1C /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		56DBB0281C108DA30089EC56 /* radio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = radio.json; sourceTree = "<group>"; };
+		EA8E742DD5272CE15396C03A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5643E2551C0FD71B005D1A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4684AA4D8CBB20182230D292 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643E26E1C0FD71B005D1A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643E2791C0FD71B005D1A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2A7E00AD0566C0E8365DD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E742DD5272CE15396C03A /* Pods.debug.xcconfig */,
+				26240A42052D46B01A973D66 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5643E24F1C0FD71B005D1A1C = {
+			isa = PBXGroup;
+			children = (
+				5643E25A1C0FD71B005D1A1C /* ESTCollectionViewDropDownList */,
+				5643E2741C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests */,
+				5643E27F1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests */,
+				5643E2591C0FD71B005D1A1C /* Products */,
+				1C2A7E00AD0566C0E8365DD6 /* Pods */,
+				A0356F0C9424A6A3833FED3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5643E2591C0FD71B005D1A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2581C0FD71B005D1A1C /* ESTCollectionViewDropDownList.app */,
+				5643E2711C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.xctest */,
+				5643E27C1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5643E25A1C0FD71B005D1A1C /* ESTCollectionViewDropDownList */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2C81C1045E7005D1A1C /* ESTCollectionViewDropDownList */,
+				5643E2B41C10207A005D1A1C /* Entities */,
+				5643E2921C10136A005D1A1C /* Controllers */,
+				5643E2931C10136A005D1A1C /* Views */,
+				5643E25B1C0FD71B005D1A1C /* Supporting Files */,
+			);
+			path = ESTCollectionViewDropDownList;
+			sourceTree = "<group>";
+		};
+		5643E25B1C0FD71B005D1A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5643E25E1C0FD71B005D1A1C /* AppDelegate.h */,
+				5643E25F1C0FD71B005D1A1C /* AppDelegate.m */,
+				5643E2671C0FD71B005D1A1C /* Assets.xcassets */,
+				5643E2691C0FD71B005D1A1C /* LaunchScreen.storyboard */,
+				5643E26C1C0FD71B005D1A1C /* Info.plist */,
+				5643E25C1C0FD71B005D1A1C /* main.m */,
+				5643E2C21C102B2D005D1A1C /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5643E2741C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2751C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.m */,
+				5643E2771C0FD71B005D1A1C /* Info.plist */,
+			);
+			path = ESTCollectionViewDropDownListTests;
+			sourceTree = "<group>";
+		};
+		5643E27F1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2801C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.m */,
+				5643E2821C0FD71B005D1A1C /* Info.plist */,
+			);
+			path = ESTCollectionViewDropDownListUITests;
+			sourceTree = "<group>";
+		};
+		5643E2921C10136A005D1A1C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2941C101388005D1A1C /* RadioListViewController.h */,
+				5643E2951C101388005D1A1C /* RadioListViewController.m */,
+				5643E2C31C103395005D1A1C /* tag_list.json */,
+				56DBB0281C108DA30089EC56 /* radio.json */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5643E2931C10136A005D1A1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2971C1013C0005D1A1C /* RadioCollectionView.h */,
+				5643E2981C1013C0005D1A1C /* RadioCollectionView.m */,
+				5643E29A1C1013CF005D1A1C /* RadioCollectionViewCell.h */,
+				5643E29B1C1013CF005D1A1C /* RadioCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5643E2B41C10207A005D1A1C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2C51C103626005D1A1C /* BaseEntity.h */,
+				5643E2C61C103626005D1A1C /* BaseEntity.m */,
+				5643E2B51C10209B005D1A1C /* RadioEntity.h */,
+				5643E2B61C10209B005D1A1C /* RadioEntity.m */,
+				5643E2B81C1020A8005D1A1C /* TagEntity.h */,
+				5643E2B91C1020A8005D1A1C /* TagEntity.m */,
+				5643E2BB1C1020B1005D1A1C /* TagListEntity.h */,
+				5643E2BC1C1020B1005D1A1C /* TagListEntity.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5643E2C81C1045E7005D1A1C /* ESTCollectionViewDropDownList */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2E21C106DAC005D1A1C /* Assets.bundle */,
+				5643E2C91C1045E7005D1A1C /* BaseView */,
+				5643E2CC1C1045E7005D1A1C /* DidSelectedTagsCollectionView */,
+				5643E2D31C1045E7005D1A1C /* TagListCollectionView */,
+				5643E2D81C1045E7005D1A1C /* TagListContainerView */,
+			);
+			name = ESTCollectionViewDropDownList;
+			path = ../../ESTCollectionViewDropDownList;
+			sourceTree = "<group>";
+		};
+		5643E2C91C1045E7005D1A1C /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2CA1C1045E7005D1A1C /* ESTCollectionViewDropDownList.h */,
+				5643E2CB1C1045E7005D1A1C /* ESTCollectionViewDropDownList.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		5643E2CC1C1045E7005D1A1C /* DidSelectedTagsCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2CD1C1045E7005D1A1C /* DidSelectedTagsCell.h */,
+				5643E2CE1C1045E7005D1A1C /* DidSelectedTagsCell.m */,
+				5643E2CF1C1045E7005D1A1C /* DidSelectedTagsCollectionView.h */,
+				5643E2D01C1045E7005D1A1C /* DidSelectedTagsCollectionView.m */,
+				5643E2D11C1045E7005D1A1C /* SelectedTagReusableView.h */,
+				5643E2D21C1045E7005D1A1C /* SelectedTagReusableView.m */,
+			);
+			path = DidSelectedTagsCollectionView;
+			sourceTree = "<group>";
+		};
+		5643E2D31C1045E7005D1A1C /* TagListCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2D41C1045E7005D1A1C /* TagListCollectionView.h */,
+				5643E2D51C1045E7005D1A1C /* TagListCollectionView.m */,
+				5643E2D61C1045E7005D1A1C /* TagListCollectionViewCell.h */,
+				5643E2D71C1045E7005D1A1C /* TagListCollectionViewCell.m */,
+			);
+			path = TagListCollectionView;
+			sourceTree = "<group>";
+		};
+		5643E2D81C1045E7005D1A1C /* TagListContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				5643E2D91C1045E7005D1A1C /* TagListContainerView.h */,
+				5643E2DA1C1045E7005D1A1C /* TagListContainerView.m */,
+			);
+			path = TagListContainerView;
+			sourceTree = "<group>";
+		};
+		A0356F0C9424A6A3833FED3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001A08981B6E7925A5D09DA3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5643E2571C0FD71B005D1A1C /* ESTCollectionViewDropDownList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5643E2851C0FD71B005D1A1C /* Build configuration list for PBXNativeTarget "ESTCollectionViewDropDownList" */;
+			buildPhases = (
+				C5B7E167E373C59D63814B0C /* Check Pods Manifest.lock */,
+				5643E2541C0FD71B005D1A1C /* Sources */,
+				5643E2551C0FD71B005D1A1C /* Frameworks */,
+				5643E2561C0FD71B005D1A1C /* Resources */,
+				7E593773B2AFEB90069AC5BF /* Embed Pods Frameworks */,
+				1CD321583E0F723D37348187 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESTCollectionViewDropDownList;
+			productName = ESTCollectionViewDropDownList;
+			productReference = 5643E2581C0FD71B005D1A1C /* ESTCollectionViewDropDownList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5643E2701C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5643E2881C0FD71B005D1A1C /* Build configuration list for PBXNativeTarget "ESTCollectionViewDropDownListTests" */;
+			buildPhases = (
+				5643E26D1C0FD71B005D1A1C /* Sources */,
+				5643E26E1C0FD71B005D1A1C /* Frameworks */,
+				5643E26F1C0FD71B005D1A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5643E2731C0FD71B005D1A1C /* PBXTargetDependency */,
+			);
+			name = ESTCollectionViewDropDownListTests;
+			productName = ESTCollectionViewDropDownListTests;
+			productReference = 5643E2711C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5643E27B1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5643E28B1C0FD71B005D1A1C /* Build configuration list for PBXNativeTarget "ESTCollectionViewDropDownListUITests" */;
+			buildPhases = (
+				5643E2781C0FD71B005D1A1C /* Sources */,
+				5643E2791C0FD71B005D1A1C /* Frameworks */,
+				5643E27A1C0FD71B005D1A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5643E27E1C0FD71B005D1A1C /* PBXTargetDependency */,
+			);
+			name = ESTCollectionViewDropDownListUITests;
+			productName = ESTCollectionViewDropDownListUITests;
+			productReference = 5643E27C1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5643E2501C0FD71B005D1A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "The EST Group";
+				TargetAttributes = {
+					5643E2571C0FD71B005D1A1C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5643E2701C0FD71B005D1A1C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5643E2571C0FD71B005D1A1C;
+					};
+					5643E27B1C0FD71B005D1A1C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5643E2571C0FD71B005D1A1C;
+					};
+				};
+			};
+			buildConfigurationList = 5643E2531C0FD71B005D1A1C /* Build configuration list for PBXProject "ESTCollectionViewDropDownList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5643E24F1C0FD71B005D1A1C;
+			productRefGroup = 5643E2591C0FD71B005D1A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5643E2571C0FD71B005D1A1C /* ESTCollectionViewDropDownList */,
+				5643E2701C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests */,
+				5643E27B1C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5643E2561C0FD71B005D1A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DBB0291C108DA30089EC56 /* radio.json in Resources */,
+				5643E2E31C106DAC005D1A1C /* Assets.bundle in Resources */,
+				5643E26B1C0FD71B005D1A1C /* LaunchScreen.storyboard in Resources */,
+				5643E2C41C103395005D1A1C /* tag_list.json in Resources */,
+				5643E2681C0FD71B005D1A1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643E26F1C0FD71B005D1A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643E27A1C0FD71B005D1A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD321583E0F723D37348187 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E593773B2AFEB90069AC5BF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B7E167E373C59D63814B0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5643E2541C0FD71B005D1A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5643E29C1C1013CF005D1A1C /* RadioCollectionViewCell.m in Sources */,
+				5643E2961C101388005D1A1C /* RadioListViewController.m in Sources */,
+				5643E2DD1C1045E7005D1A1C /* DidSelectedTagsCollectionView.m in Sources */,
+				5643E2DB1C1045E7005D1A1C /* ESTCollectionViewDropDownList.m in Sources */,
+				5643E2B71C10209B005D1A1C /* RadioEntity.m in Sources */,
+				5643E2601C0FD71B005D1A1C /* AppDelegate.m in Sources */,
+				5643E2DE1C1045E7005D1A1C /* SelectedTagReusableView.m in Sources */,
+				5643E2E11C1045E7005D1A1C /* TagListContainerView.m in Sources */,
+				5643E2DF1C1045E7005D1A1C /* TagListCollectionView.m in Sources */,
+				5643E2BA1C1020A8005D1A1C /* TagEntity.m in Sources */,
+				5643E2991C1013C0005D1A1C /* RadioCollectionView.m in Sources */,
+				5643E2E01C1045E7005D1A1C /* TagListCollectionViewCell.m in Sources */,
+				5643E2BD1C1020B1005D1A1C /* TagListEntity.m in Sources */,
+				5643E2DC1C1045E7005D1A1C /* DidSelectedTagsCell.m in Sources */,
+				5643E25D1C0FD71B005D1A1C /* main.m in Sources */,
+				5643E2C71C103626005D1A1C /* BaseEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643E26D1C0FD71B005D1A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5643E2761C0FD71B005D1A1C /* ESTCollectionViewDropDownListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643E2781C0FD71B005D1A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5643E2811C0FD71B005D1A1C /* ESTCollectionViewDropDownListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5643E2731C0FD71B005D1A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5643E2571C0FD71B005D1A1C /* ESTCollectionViewDropDownList */;
+			targetProxy = 5643E2721C0FD71B005D1A1C /* PBXContainerItemProxy */;
+		};
+		5643E27E1C0FD71B005D1A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5643E2571C0FD71B005D1A1C /* ESTCollectionViewDropDownList */;
+			targetProxy = 5643E27D1C0FD71B005D1A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5643E2691C0FD71B005D1A1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5643E26A1C0FD71B005D1A1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5643E2831C0FD71B005D1A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5643E2841C0FD71B005D1A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5643E2861C0FD71B005D1A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8E742DD5272CE15396C03A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ESTCollectionViewDropDownList/PrefixHeader.pch;
+				INFOPLIST_FILE = ESTCollectionViewDropDownList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.ESTCollectionViewDropDownList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5643E2871C0FD71B005D1A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26240A42052D46B01A973D66 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ESTCollectionViewDropDownList/PrefixHeader.pch;
+				INFOPLIST_FILE = ESTCollectionViewDropDownList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.ESTCollectionViewDropDownList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5643E2891C0FD71B005D1A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ESTCollectionViewDropDownListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.ESTCollectionViewDropDownListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESTCollectionViewDropDownList.app/ESTCollectionViewDropDownList";
+			};
+			name = Debug;
+		};
+		5643E28A1C0FD71B005D1A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ESTCollectionViewDropDownListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.ESTCollectionViewDropDownListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESTCollectionViewDropDownList.app/ESTCollectionViewDropDownList";
+			};
+			name = Release;
+		};
+		5643E28C1C0FD71B005D1A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ESTCollectionViewDropDownListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.ESTCollectionViewDropDownListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ESTCollectionViewDropDownList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5643E28D1C0FD71B005D1A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ESTCollectionViewDropDownListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.est-group.ESTCollectionViewDropDownListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ESTCollectionViewDropDownList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5643E2531C0FD71B005D1A1C /* Build configuration list for PBXProject "ESTCollectionViewDropDownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643E2831C0FD71B005D1A1C /* Debug */,
+				5643E2841C0FD71B005D1A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5643E2851C0FD71B005D1A1C /* Build configuration list for PBXNativeTarget "ESTCollectionViewDropDownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643E2861C0FD71B005D1A1C /* Debug */,
+				5643E2871C0FD71B005D1A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5643E2881C0FD71B005D1A1C /* Build configuration list for PBXNativeTarget "ESTCollectionViewDropDownListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643E2891C0FD71B005D1A1C /* Debug */,
+				5643E28A1C0FD71B005D1A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5643E28B1C0FD71B005D1A1C /* Build configuration list for PBXNativeTarget "ESTCollectionViewDropDownListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643E28C1C0FD71B005D1A1C /* Debug */,
+				5643E28D1C0FD71B005D1A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5643E2501C0FD71B005D1A1C /* Project object */;
+}
