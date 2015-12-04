@@ -13,6 +13,8 @@ Inspired by XiaMi (A popular music player in China).
 
 > This project is made with :heart: by [The EST Group](http://est-group.org/).
 
+## [中文文档](https://github.com/Aufree/ESTCollectionViewDropDownList#中文文档)
+
 ## Other wonderful project by our team
 
 * [PHPHub-iOS](https://github.com/aufree/phphub-ios) by [@Aufree](https://github.com/aufree)
@@ -50,7 +52,7 @@ Now you'll need to build the dependencies
 
 > $ pod install
 
-Open `ESTCollectionViewDropDownList.xcworkspace`, Run:
+Run the following command to open `ESTCollectionViewDropDownList.xcworkspace`:
 
 > open Example/ESTCollectionViewDropDownList.xcworkspace
 
@@ -71,3 +73,70 @@ Copyright (c) 2015 Paul King
 ---------------
 
 Released under the [MIT license](https://github.com/Aufree/ESTCollectionViewDropDownList/blob/master/LICENSE)
+
+# 中文文档
+
+ESTCollectionViewDropDownList 是一个实现了 iOS 下拉标签列表视图的 Demo.
+
+创作灵感来自于虾米.
+
+> 开源自 [The EST Group](http://est-group.org/) 团队.
+
+## 我们团队的其它开源项目
+
+* [PHPHub-iOS](https://github.com/aufree/phphub-ios) by [@Aufree](https://github.com/aufree)
+* [PHPHub-Server](https://github.com/NauxLiu/phphub-server) by [@NauxLiu](https://github.com/NauxLiu)
+* [PHPHub-Android](https://github.com/CycloneAxe/phphub-android) by [@Kelvin](https://github.com/CycloneAxe) and [@Xiaoxiaoyu](https://github.com/xiaoxiaoyu)
+* [PHPHub-UI](https://github.com/phphub/phphub-ui) by [@Summer](https://github.com/phphub/phphub-ui) and [@Aufree](https://github.com/aufree)
+* [PHPHub-Web](https://github.com/summerblue/phphub) by [@Summer](https://github.com/phphub/phphub-ui)
+
+## 要求
+
+* 运行在 iOS 8.0 及以上的 iPhone/iPad.
+* Xcode 7.0  及以上版本.
+
+## 截屏
+
+<p align="center">
+  <br>
+<img src="http://ww4.sinaimg.cn/large/76dc7f1bjw1eynlcbebmpg20ku112kjs.gif" alt="screenshots" title="screenshots" width="375"/>
+  <br>
+  <br>
+<img src="http://ww2.sinaimg.cn/large/76dc7f1bjw1eynle9c1klg20ku112x6x.gif" alt="screenshots" title="screenshots" width="375"/>
+</p>
+
+## 编译配置
+
+如果你尚未安装 Cocoapods, 运行以下命令进行安装:
+
+> $ gem install cocoapods
+
+下载源代码
+
+> $ git clone https://github.com/Aufree/ESTCollectionViewDropDownList.git
+
+安装依赖
+
+> $ pod install
+
+运行以下命令来打开 `ESTCollectionViewDropDownList.xcworkspace`:
+
+> open Example/ESTCollectionViewDropDownList.xcworkspace
+
+这就完了, 祝你玩得愉快! :beers:
+
+## 参与贡献
+
+感谢您有兴趣参与 ESTCollectionViewDropDownList 的开发, 您可以在本地修改此项目, 经测试后无任何问题即可给我提交 Pull Request, 我会定期查看并 Merge, 若有其它问题, 可通过提交 [issue](https://github.com/Aufree/ESTCollectionViewDropDownList/issues/new) 来让我知道.
+
+## 联系
+
+你若有其它需要帮助的地方, 可通过 [Twitter](https://twitter.com/_Paul_King_) 或 [微博](http://weibo.com/jinfali) 联系我.
+
+## 许可证
+
+Copyright (c) 2015 Paul King
+
+---------------
+
+使用 [MIT 许可证](https://github.com/Aufree/ESTCollectionViewDropDownList/blob/master/LICENSE) 发行.
