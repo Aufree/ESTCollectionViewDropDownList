@@ -29,7 +29,11 @@ Inspired by XiaMi (A popular music player in China).
 ## Screenshots
 
 <p align="center">
-<img src="http://ww3.sinaimg.cn/large/76dc7f1bgw1eymxj5t7hog20bp0kbx6r.gif" alt="screenshots" title="screenshots"/>
+  <br>
+<img src="http://ww4.sinaimg.cn/large/76dc7f1bjw1eynlcbebmpg20ku112kjs.gif" alt="screenshots" title="screenshots" width="375"/>
+  <br>
+  <br>
+<img src="http://ww2.sinaimg.cn/large/76dc7f1bjw1eynle9c1klg20ku112x6x.gif" alt="screenshots" title="screenshots" width="375"/>
 </p>
 
 ## Build Instructions
