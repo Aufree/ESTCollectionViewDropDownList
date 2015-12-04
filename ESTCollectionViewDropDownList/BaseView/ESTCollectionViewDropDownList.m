@@ -54,7 +54,6 @@
 - (void)setup {
     [self setupView];
     [self addSubview:self.topBarView];
-    [self addSubview:self.separatorLine];
     [self addSubview:self.tagListContainerView];
     [self addSubview:self.didSelectedTagsView];
     [self addAutoLayout];
@@ -78,6 +77,7 @@
         [_topBarView addSubview:self.newestButton];
         [_topBarView addSubview:self.hotsButton];
         [_topBarView addSubview:self.filterButton];
+        [_topBarView addSubview:self.separatorLine];
     }
     return _topBarView;
 }
@@ -288,13 +288,13 @@
         make.left.offset(15);
         make.right.offset(-15);
         make.height.offset(0.5);
-        make.top.equalTo(_topBarView.mas_bottom).offset(0);
+        make.bottom.offset(0);
     }];
     
     // Tag List Container View
     
     [_tagListContainerView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(_separatorLine.mas_bottom).offset(0);
+        make.top.equalTo(_topBarView.mas_bottom).offset(0);
         make.left.offset(0);
         make.right.offset(0);
         _tagsContainerHeight = make.height.offset(0);

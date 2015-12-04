@@ -42,7 +42,7 @@
 - (UIButton *)radioPlayButton {
     if (!_radioPlayButton) {
         _radioPlayButton = [[UIButton alloc] init];
-        [_radioPlayButton setImage:[UIImage imageNamed:@"small_play_icon"] forState:UIControlStateNormal];
+        [_radioPlayButton setImage:[UIImage imageNamed:@"Assets.bundle/play_icon"] forState:UIControlStateNormal];
     }
     return _radioPlayButton;
 }
