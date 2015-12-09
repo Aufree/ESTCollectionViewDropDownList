@@ -13,7 +13,7 @@ Inspired by XiaMi (A popular music player in China).
 
 > This project is made with :heart: by [The EST Group](http://est-group.org/).
 
-## [中文文档](https://github.com/Aufree/ESTCollectionViewDropDownList#中文文档)
+## [中文文档](https://github.com/Aufree/ESTCollectionViewDropDownList#中文文档-1)
 
 ## Other wonderful project by our team
 
