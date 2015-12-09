@@ -1,5 +1,5 @@
 <p align="center">
-<img src="http://ww3.sinaimg.cn/large/76dc7f1bgw1eymxp61g9zj21jk062tbe.jpg" alt="Banner" title="Banner" width="1000"/>
+<img src="http://ww1.sinaimg.cn/large/76dc7f1bjw1eyt2yrj51kj21jk07gwha.jpg" alt="Banner" title="Banner" width="1000"/>
 </p>
 
 <p align="center">
