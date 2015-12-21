@@ -4,7 +4,9 @@
 
 <p align="center">
 <a href="https://weibo.com/jinfali"><img src="https://img.shields.io/badge/contact-@Aufree-orange.svg?style=flat"></a>
-<a href="https://github.com/Aufree/ESTCollectionViewDropDownList/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
+<a href="https://github.com/Aufree/ESTCollectionViewDropDownList/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat">
+</a>
+<a href="https://github.com/Aufree"><img src="https://ga-beacon.appspot.com/UA-70965318-2/ESTCollectionViewDropDownList/readme" alt="GA"></a>
 </p>
 
 ESTCollectionViewDropDownList is a demo implementation of a drop down tag list view for iOS.
