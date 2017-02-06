@@ -13,7 +13,8 @@ ESTCollectionViewDropDownList is a demo implementation of a drop down tag list v
 
 Inspired by XiaMi (A popular music player in China).
 
-> This project is made with :heart: by [The EST Group](http://est-group.org/).
+> - 本人著作的书籍[《Laravel 入门教程》](https://laravel-china.org/laravel-tutorial/5.1)已正式发布，有兴趣的朋友可点击 [此处](https://laravel-china.org/topics/3383) 作进一步了解。
+> - 本项目由 [优帆远扬](yousails.com) 提供技术支持，有需要技术服务或软件开发的朋友可 [跟我联系](mailto:aufree@yousails.com)。
 
 ## [中文文档](https://github.com/Aufree/ESTCollectionViewDropDownList#中文文档-1)
 
