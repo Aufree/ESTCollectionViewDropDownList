@@ -35,10 +35,8 @@ Inspired by XiaMi (A popular music player in China).
 
 <p align="center">
   <br>
-<img src="http://ww4.sinaimg.cn/large/76dc7f1bjw1eynlcbebmpg20ku112kjs.gif" alt="screenshots" title="screenshots" width="375"/>
+<img src="https://cloud.githubusercontent.com/assets/5310542/22637416/a8bd021e-ec7c-11e6-816b-b262e5333fd6.png" alt="screenshots" title="screenshots" width="375"/>
   <br>
-  <br>
-<img src="http://ww2.sinaimg.cn/large/76dc7f1bjw1eynle9c1klg20ku112x6x.gif" alt="screenshots" title="screenshots" width="375"/>
 </p>
 
 ## Build Instructions
@@ -102,10 +100,8 @@ ESTCollectionViewDropDownList 是一个实现了 iOS 下拉标签列表视图的
 
 <p align="center">
   <br>
-<img src="http://ww4.sinaimg.cn/large/76dc7f1bjw1eynlcbebmpg20ku112kjs.gif" alt="screenshots" title="screenshots" width="375"/>
+<img src="https://cloud.githubusercontent.com/assets/5310542/22637416/a8bd021e-ec7c-11e6-816b-b262e5333fd6.png" alt="screenshots" title="screenshots" width="375"/>
   <br>
-  <br>
-<img src="http://ww2.sinaimg.cn/large/76dc7f1bjw1eynle9c1klg20ku112x6x.gif" alt="screenshots" title="screenshots" width="375"/>
 </p>
 
 ## 编译配置
