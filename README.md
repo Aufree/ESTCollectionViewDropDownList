@@ -9,14 +9,6 @@
 <a href="https://github.com/Aufree"><img src="https://ga-beacon.appspot.com/UA-70965318-2/ESTCollectionViewDropDownList/readme" alt="GA"></a>
 </p>
 
-<p align="center">
-  <br>
-  若需要软件外包服务，可与我联系，添加好友请注明来意
-  <br>
-  <br>  
-  <img src="https://user-images.githubusercontent.com/5310542/41954703-5178d4e8-7a0f-11e8-81b2-41c8f6aa0151.png" width="30%">
-</p>
-
 ESTCollectionViewDropDownList is a demo implementation of a drop down tag list view for iOS.
 
 Inspired by XiaMi (A popular music player in China).
